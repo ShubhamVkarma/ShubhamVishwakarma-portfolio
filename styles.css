@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
-    --primary-color: #9333ea
+    --primary-color: #9333ea;
+    --dark-grey: #64748b;
+    --offwhite: #e2e8f0;
 }
 
 body{
     font-family: 'Montserrat', 
     sans-serif;
+    margin: 0rem;
+  
 }
 
 hr{
@@ -25,6 +29,7 @@ hr{
     max-width: 600px;
     margin: auto;
 }
+/* Link */
 
 .link{
     text-decoration: none;
@@ -45,11 +50,17 @@ hr{
 /* Lists */
 .list-non-bullet{
     list-style: none;
+    padding: 1rem;
 }
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
 }
+.list-ordered{
+    padding-inline-start: 0px;
+}
+
+/* Navigation */
 
 .navigation{
     background-color: var(--primary-color);
@@ -69,4 +80,52 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
+/* Header */
+.hero{
+    padding: 2rem;
+}
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding: 1rem;
+    color:var(--dark-grey);
+    text-align: center;
+}
+.hero .hero-heading .hero-inverted{
+    color:var(--primary-color);
+}
+/* Sections */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--offwhite);
+}
+.footer{
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+/* .footer-heading{
+    padding: 0.5 rem;
+} */
+
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start:0px;
+}
+
+
+
 
