@@ -26,7 +26,7 @@ hr{
 }
 
 .container-center{
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
 }
 /* Link */
@@ -100,6 +100,8 @@ hr{
 /* Sections */
 .section{
     padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
 }
 .section h1{
     text-align: center;
@@ -115,9 +117,11 @@ hr{
     border-top-right-radius: 1rem;
 
 }
-/* .footer-heading{
+.footer-heading{
+    font-weight: bold;
+    font-size: large;
     padding: 0.5 rem;
-} */
+}
 
 .footer .link{
     color: white;
